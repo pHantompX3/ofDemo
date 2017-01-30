@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+cout << "Hello from setup";
 }
 
 //--------------------------------------------------------------
@@ -12,13 +12,13 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-ofBackground(0);
-ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
+ofBackground(2);
+ofTranslate(ofGetWidth()/4, ofGetHeight()/6);
 
-for(int i = 0; i < 3; i++)
+for(int i = 0; i < 13; i++)
  {
-   ofRotate(20);
-   ofDrawLine(0,0,0,220);
+   ofRotate(70);
+   ofDrawLine(1,2,3,451);
 
  }
 }
